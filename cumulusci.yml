@@ -18,3 +18,7 @@ flows:
                 task: util_sleep
                 options:
                     seconds: 60
+    ci_feature:
+        tasks:
+            8:
+                task: run_tests
